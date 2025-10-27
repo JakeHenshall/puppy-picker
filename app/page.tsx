@@ -227,8 +227,8 @@ export default function Home() {
 
           <div className="bg-white rounded-lg shadow-lg p-10 border-2 border-blue-100">
             <div className="text-center">
-              <div className="text-6xl mb-4">🐕</div>
-              <div className="text-gray-700 text-lg leading-relaxed">
+              <div className="text-6xl mb-3">🐕</div>
+              <div className="text-gray-700 text-lg leading-relaxed whitespace-pre-line">
                 {results}
               </div>
               {error && (

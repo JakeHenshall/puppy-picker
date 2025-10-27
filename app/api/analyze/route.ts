@@ -77,7 +77,7 @@ Use British English spelling and terminology throughout your response.
 
 Activity: ${sanitizedAnswers.activityLevel} | Space: ${sanitizedAnswers.livingSpace} | Experience: ${sanitizedAnswers.experience} | Time: ${sanitizedAnswers.timeCommitment} | Size: ${sanitizedAnswers.breedSize} | Grooming: ${sanitizedAnswers.groomingWillingness} | Training: ${sanitizedAnswers.trainability}
 
-Respond with just the breed name and explanation. Keep it concise and friendly.`;
+Format your response with the breed name on the first line, followed by a blank line, then the explanation. Keep it concise and friendly.`;
 
     const completion = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
